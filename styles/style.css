@@ -5,7 +5,7 @@ main {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2)
+    border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
     color: #333;
@@ -17,11 +17,14 @@ width: 200px;
 height: auto;
 }
 
+nav {
+    background-color: steelblue;
+}
+
 nav a {
     color: white;
     padding: 10px;
     display: block;
-    background-color: steelblue;
 
 }
 
@@ -38,7 +41,7 @@ main img {
 }
 
 p { 
-    padding: 0px;
+    padding: 0;
 }
 
 footer {
