@@ -17,6 +17,18 @@ width: 200px;
 height: auto;
 }
 
+nav a {
+    color: white;
+    padding: 10px;
+    display: block;
+    background-color: steelblue;
+
+}
+
+h1 {
+    color: steelblue;
+}
+
 main img {
     width:150px;
     height: auto;
@@ -25,7 +37,9 @@ main img {
     box-shadow: 0 0 30px gray;
 }
 
-p { padding: 0px;}
+p { 
+    padding: 0px;
+}
 
 footer {
     margin-top: 15px;
