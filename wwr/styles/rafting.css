@@ -115,14 +115,14 @@ footer {
 
 .history-content{
     display: grid;
-    grid-template-columns: 1fr 300px 1fr;
+    grid-template-columns: 1fr 100px 1fr;
     gap: 1rem;
     align-items: center;
     margin: 2rem 0;
 }
 
 .history img {
-    width: 100%;
+    width:150px;
     border-radius: 8px;
     align-items: center;
 }
