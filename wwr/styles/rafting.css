@@ -113,16 +113,16 @@ footer {
 
 .history-content{
     display: grid;
-    grid-template-columns: 1fr 100px 1fr;
+    grid-template-columns: 1fr 0fr 1fr;
     gap: 1rem;
     align-items: center;
-    margin: 2rem 0;
+    margin: 2rem;
 }
 
-.history img {
-    width:150px;
+.history-content img {
+    width: 150px;
+    height: auto;
     border-radius: 8px;
-    align-items: center;
 }
 
 h2 {
