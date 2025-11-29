@@ -133,7 +133,7 @@ h2 {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 35px;
 }
 
 .gallery img {
