@@ -51,10 +51,6 @@ nav, p, section, article {
     padding: 18px;
 }
 
-.socialmedia {
-    text-decoration: none;
-}
-
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
@@ -107,6 +103,7 @@ footer {
 .socialmedia {
     display: flex;
     gap: 15px;
+    text-decoration: none;
 }
 
 .socialmedia img {
