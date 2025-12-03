@@ -84,6 +84,7 @@ header img {
 }
 
 header nav {
+    display: flex;
     justify-self: end;
     padding: 20px;
 }
