@@ -67,6 +67,12 @@ h1 {
     color: #fff; /* White text*/
 }
 
+.container1 {
+    margin: 3px;
+    padding: 0px;
+    text-align: center;
+}
+
 header {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -164,12 +170,6 @@ form {
     text-align: left;
 }
 
-.container1 {
-    margin: 3px;
-    padding: 0px;
-    text-align: center;
-}
-
 form div{
     margin: 2px;
 }
@@ -202,6 +202,21 @@ button:hover{
     background-color: var(--accent1-color);
     color: #eee;
 }
+.contact1{
+    text-align:center;
+}
+.contact1 h1{
+    color: var(--primary-color);
+    position: absolute;
+    width: 500px;
+    padding: 0px;
+    margin: 20rem;
+   left: 50px;
+   top: 420px;
+   color: #eee;
+
+}
+
 
 .container3 {
     display: flex;
