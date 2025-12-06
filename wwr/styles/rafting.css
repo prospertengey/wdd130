@@ -206,12 +206,12 @@ button:hover{
     text-align:center;
 }
 .contact1 h1{
-    position: absolute;
+    position: relative;
     width: 500px;
     padding: 0px;
-    margin: 20rem;
-   left: 50px;
-   top: 420px;
+   left: 100px;
+   top: 0px;
+   margin: 10px;
    color: #eee;
 
 }
