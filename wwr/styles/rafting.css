@@ -129,6 +129,7 @@ footer {
 h2 {
     text-align: center;
 }
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -146,6 +147,80 @@ h2 {
 }
 
 .gallery figcaption{
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
+
+form {
+    width: 350px;
+    height: 400px;
+    margin:0 auto;
+    padding: 1rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    background-color: #faefa0;
+    display: grid;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.container1 {
+    margin: 3px;
+    padding: 0px;
+    text-align: center;
+}
+
+form div{
+    margin: 2px;
+}
+form p{
+    margin: 0;
+    text-align: left;
+    padding: 0px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 3rem;
+    align-items: center;
+    margin: 3rem;
+}
+.container2 iframe{
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+button{
+    width: 100%;
+    Height: 30px;
+    background-color: var(--accent2-color);
+    border: 0px;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: var(--accent1-color);
+    color: #eee;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    align-items: center;
+}
+
+.container3 img {
+    width: 200px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.container3 figure {
+    text-align: center;
+}
+
+.container3 figcaption{
     margin-top: 8px;
     font-size: 0.9rem;
     color: var(--accent1-color);
