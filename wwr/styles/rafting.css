@@ -35,6 +35,22 @@
     background-color: var(--accent2-color);
 }
 
+.hero-text{
+    position: absolute;
+    top: 180px;
+    left: 450px;
+    padding: 5px;
+    color: #fff;
+}
+
+.hero-trip{
+    top:220px;
+    left: 660px;
+    position:absolute;
+}
+.hero-trip a{
+    text-decoration: none;
+}
 
 body {
     font-family: var(--body-font);
@@ -77,7 +93,7 @@ header {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
-    gap: 20px;
+    gap:20px;
     padding: 10px;
     background-color: var(--secondary-color);
 }
@@ -96,8 +112,23 @@ header nav {
 }
 
 header nav a {
-    margin-left: 80px;
+    margin-left: 20px;
     text-decoration: none;
+}
+
+a{
+    background-color: #faefa0;
+    width:90px;
+    height: 30px;
+    text-align: center;
+    padding:5px;
+    border-radius: 5px;
+}
+a:hover{
+    background-color: var(--accent1-color);
+    color: #eee;
+    width:90px;
+    height: 30px;
 }
 
 footer {
@@ -116,6 +147,9 @@ footer {
 .socialmedia img {
     width: 30px;
     height: auto;
+}
+.socialmedia a{
+    width: 30px;
 }
 
 .history-content{
@@ -158,6 +192,7 @@ h2 {
     color: var(--accent1-color);
 }
 
+
 form {
     width: 350px;
     height: 400px;
@@ -173,11 +208,13 @@ form {
 form div{
     margin: 2px;
 }
+
 form p{
     margin: 0;
     text-align: left;
     padding: 0px;
 }
+
 .container2{
     display: grid;
     grid-template-columns: 300px auto;
@@ -198,10 +235,12 @@ button{
     border: 0px;
     border-radius: 20px;
 }
+
 button:hover{
     background-color: var(--accent1-color);
     color: #eee;
 }
+
 .contact1{
     text-align:center;
 }
@@ -237,4 +276,79 @@ button:hover{
     margin-top: 8px;
     font-size: 0.9rem;
     color: var(--accent1-color);
+}
+
+.home-all{
+    text-align:center;
+}
+.home-all h1{
+    position: relative;
+    width: 600px;
+    padding: 0px;
+   left: 100px;
+   top: 0px;
+   margin: 20px;
+   color: #eee;
+}
+
+.home-cap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+}
+
+.home-cap img {
+    width: 250px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.home-cap figure {
+    text-align: center;
+}
+
+.home-cap figcaption{
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
+
+.home-container{
+    display: grid;
+    position:flex;
+    grid-template-columns: 400px auto;
+    gap: 3rem;
+    align-items: center;
+    margin: 1rem;
+}
+
+.home-container img{
+   width:800px;
+   padding:0px;
+   margin: 0px;
+}
+
+.home-container form{
+    background-color:#faefa0;
+    width: 400px;
+    height: 300px;
+}
+.home-container button{
+    width:360px;
+    height: 50px;
+    font-size: large;
+}
+
+h3{
+    text-align: center;
+}
+
+.in-email{
+    width: 300px;
+    height: 30px;
+}
+
+/*.pages{
+    background-color:#faefa0;
 }
