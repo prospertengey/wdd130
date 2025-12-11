@@ -349,6 +349,69 @@ h3{
     height: 30px;
 }
 
-/*.pages{
-    background-color:#faefa0;
+.trip-head{
+   text-align: center;
+}
+.trip-head h1{
+    background-color:var(--accent1-color);
+     display: relative;
+    top:380px
+}
+.trip-cap {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.trip-cap img {
+    width: 230px;
+    object-fit: cover;
+    border: 1px solid rgba(1, 50, 8, 0.1);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.trip-cap figure {
+    text-align: center;
+}
+
+.trip-cap figcaption{
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: var(--accent1-color);
+}
+
+.nice{
+    border: 1px solid rgb(0 0 0 / 10%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-bottom: 30px;
+}
+.book-now{
+    margin-top: 20px;
+}
+
+.book-now a{
+    text-decoration: none;
+}
+
+.table-part{
+    width: 800px;
+    text-align: center;
+    
+}
+.av-trips{
+    width: 800px;
+    align-items: center;
+}
+.av-trips th{
+    background-color: var(--accent1-color);
+    color:#faefa0;
+    width: 100px;
+    height: 30px;
+}
+.av-trips td{
+    background-color: #faefa0;
 }
